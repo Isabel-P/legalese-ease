@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv=" X-UA-Compatible" content=" ="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="chatbox-wrapper">
+     <div class="message-box">
+        <div class="chat response">
+            <span class="material-symbols-outlined">
+                gavel
+                </span>  <!-- legal ease logo here-->
+            <span>Hello <br>
+                How can I help you today. <br>
+                Do you need assitiance with one of the following? <br>
+                <br>
+                Employment Law?<br>
+                <br>
+                Family Law?<br>
+                <br>
+                Intellectual Property Law?<br>
+                <br>You may input another option<br>
+                <br> Would you like to be connected with one of our lawyers for your qurery?
+                <br>
+            </span>
+        </div>
+      <!--
+          <div class="chat message">
+            <span class="material-symbols-outlined">
+                person
+                </span> 
+                <span>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum consectetur beatae fuga perspiciatis ipsa explicabo maiores, dignissimos enim voluptatem sequi iusto, voluptatum ipsam. Omnis magni pariatur mollitia porro dolores.
+                </span>
+            </div>
+      -->
+      
+     </div>
+     <div class="message bar">
+           <div class="bar-wrapper">
+            <input type="text" placeholder=" Enter your message...">
+            <button>
+                <span class="material-symbols-outlined">
+                    send
+                    </span> 
+            </button>
+           </div>
+     </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+
+
+
+</html>
